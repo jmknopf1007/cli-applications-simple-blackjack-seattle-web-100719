@@ -21,8 +21,11 @@ end
 
 def initial_round
   # code #initial_round here
-  sum = rand(1..11) + rand(1..11)
-  display_card_total(sum)
+  card_one = deal_card
+  card_two = deal_card
+  sum = card_one + card_two
+  puts "Your cards add up to #{sum}"
+  sum
 end
 
 def end_game(card_total)
