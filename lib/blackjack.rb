@@ -31,6 +31,8 @@ end
 
 def initial_round
   # code #initial_round here
+  sum = rand(1..11) + rand(1..11)
+  display_card_total(sum)
 end
 
 def hit?
