@@ -38,7 +38,7 @@ def get_user_input
   gets.strip.chomp
 end
 
-def hit? (card_total)
+def hit? (user_hand)
   # code hit? here
   prompt_user
   user_input = get_user_input
